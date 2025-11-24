@@ -1,0 +1,38 @@
+# Data directories
+data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints and serialized models
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Results and outputs
+results/
+outputs/

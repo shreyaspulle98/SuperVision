@@ -1,0 +1,5 @@
+1. Dataset: I played around with 3DSC (3D superconductor data that comes from experiments conducted in the literature). Real lab experiments
+    Jarvis dataset created from DFT calculations, but also incorporating BCS theory. However, it only captures BCS (conventional) superconductors rather than other types like cuprates, iron-based and fermions
+    Given the diff in types of data, and the weighting towards one type of data, we don't want the Dinov3 to learn from only one type of data too much
+2. Rendering: We are going with physics informed rendering which includes:
+    - Valence electron encoding: 
